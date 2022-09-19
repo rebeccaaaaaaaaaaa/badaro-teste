@@ -143,3 +143,10 @@
     width: 200px;
     height: 40px;
   }
+
+@media only screen and (max-width: 600px) {
+ .proven_experience--content{
+        display: block;
+    width: 100%;
+}
+}

@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap');
+
+* {
+    box-sizing: border-box;
+  }
+
+  :root{
+    --primary-color: #062EFE;
+    --neutral-color: #46508A;
+  }
+  
+  body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    color: black;
+    background-color: #fff;
+  }
+  
+  main {
+    padding: 1rem;
+  }
+  
+
+ /* LEMBRAR DE IMPORTAR FONT - POPPINS */
+
+
+   /* PROVEN EXPERIENCE SECTION */
+
+  .proven_experience--content{
+    display: flex;
+    gap: 15rem;
+    width: 1192px;
+    height: 228px;
+  }
+
+/*   .proven_experience--content:after{
+    content: "";
+    display: block;
+    width: 100%;
+    height: 1px;
+    background-color: var(--neutral-color);
+    position: absolute;
+  } */
+
+  .proven_experience--content_smallTitle{
+    font-size: 1rem;
+    font-weight: 600;
+    line-height: 2.25rem;
+    color: var(--neutral-color);
+
+   /*  font: 1rem 600 Poppins, sans-serif; */
+  }
+
+  .proven_experience--content_subtitle{
+    color: var(--primary-color);
+    font-weight: 500;
+  }
+
+  /* CLIENT SECTION */
+
+  .client_imageBox{
+    display: flex;
+    align-items: center;
+    padding: 1rem;
+    border: 1px solid #F0F1FA;
+    margin-bottom: 1.5rem; // ~ 25px
+  }
+
+  .client_imageBox img{
+    filter: grayscale(100%);
+    transition: 0.5s ease-all;
+
+    cursor: pointer;
+  }
+
+  .client_imageBox img:hover{
+    filter: grayscale(0%);
+  }
+
+
+  /* COUNTDOWN SECTION */
+
+  .countdown--content{
+    display: flex;
+    gap: 1rem;
+    width: 100%;
+    height: 100%;
+
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .countdown--content-item{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    gap: 1rem;
+    width: 100%;
+    height: 100%;
+  }
+
+  .countdown--content-item:after{
+    content: "";
+    display: block;
+    width: 25%;
+    height: 1px;
+    background-color: var(--neutral-color);
+
+  }
+
+
+  .countdown--content_number{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 60px;
+    line-height: 72px;
+    margin: 0;
+    color: var(--neutral-color);
+  }
+
+  .countdown--content_number h3{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 48px;
+
+    display: contents;
+}
+
+
+  .countdown--content_title{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 36px;
+    color: var(--primary-color);
+  }
+
+
+  .countdown--content_text{
+    font-weight: 400;
+    font-size: 14px;
+    width: 200px;
+    height: 40px;
+  }
